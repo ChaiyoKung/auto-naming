@@ -34,4 +34,4 @@ async function renameAllFile(
   console.timeEnd(DONE_LOG);
 }
 
-renameAllFile('C:/Users/ChaiyoKung/Desktop/Test');
+renameAllFile('C:/Users/YourName/Desktop/TargetDir');
