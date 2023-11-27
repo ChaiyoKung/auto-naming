@@ -5,6 +5,8 @@ Automatic rename all file to unique name in specific directory
 ## How to use
 
 ```js
-renameAllFile('C:/Users/YourName/Desktop/TargetDir');
-renameAllFile('C:/Users/YourName/Desktop/TargetDir', { dryRun: true });
+await renameAllFile('C:/Users/YourName/Desktop/TargetDir');
+
+// or dry run
+await renameAllFile('C:/Users/YourName/Desktop/TargetDir', { dryRun: true });
 ```
